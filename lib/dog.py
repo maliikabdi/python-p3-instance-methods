@@ -1,7 +1,21 @@
 #!/usr/bin/env python3
 
 class Dog:
-    # Class body goes here
+    # Instance method definition
+    def bark(self):
+        # Fixing the case to match expected output
+        print("Woof!")
 
-    #Instance method definition
-    pass
+    def sit(self):
+        # Ensuring the output matches expected format
+        print("The dog is sitting.")
+
+# Creating Dog instances and calling their methods
+fido = Dog()
+fido.bark()
+
+snoopy = Dog()
+snoopy.bark()
+
+doogy = Dog()
+doogy.sit()
